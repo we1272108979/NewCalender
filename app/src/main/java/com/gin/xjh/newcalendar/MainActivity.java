@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements NewCalendar.NewCa
         setContentView(R.layout.activity_main);
         NewCalendar newCalendar = findViewById(R.id.newCalendar);
         newCalendar.mlistener = this;
+        //测试
     }
 
     @Override
